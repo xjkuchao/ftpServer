@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "F:\\Documents\\Sources\\cpp\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+    },
+    "files.associations": {
+        "qcoreapplication": "cpp",
+        "qdatetime": "cpp"
+    },
+}

@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        },
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x86",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/build",
+                "${workspaceFolder}/build/Capture_autogen/include",
+                "/usr/local/opt/qt/include",
+                "/usr/local/opt/qt/include/QtCore",
+                "/usr/local/opt/qt/include/QtWidgets",
+                "/usr/local/opt/qt/include/QtGui",
+                "/usr/local/opt/qt/include/QtNetwork"
+            ]
+        }
+    ],
+    "version": 4
+}
